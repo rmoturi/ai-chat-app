@@ -1,0 +1,8 @@
+<p>chat works!</p>
+<div>
+    <input type="text" [(ngModel)]="question" #questionInput placeholder="Ask me anything">
+    <button (click)="askAI()">Send</button>
+</div>
+<div>
+    <p>{{answer}}</p>  
+</div>
